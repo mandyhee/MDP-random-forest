@@ -8,7 +8,7 @@ Two random forest model example:
 
 Python Library used: `pandas`, `sklearn`. 
 
-SQL code to extract data from U of M DataDirect Precision Health database. 
+SQL code to extract data from U of M DataDirect Precision Health database.   
 `\copy (select a.encounterid, a.termnamemapped, b.result_name, b.value   
 from diagnoses as a join labresults as b 
 on a.encounterid = b.encounterid   
